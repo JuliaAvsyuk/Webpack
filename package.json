@@ -4,8 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-      "build": "webpack -p",
-      "watch": "webpack --watch"
+    "webpack" : "webpack",
+    "build": "webpack -p",
+    "watch": "webpack --watch"
   },
   "repository": {
     "type": "git",
@@ -18,6 +19,7 @@
   },
   "homepage": "https://github.com/JuliaAvsyuk/Webpack#readme",
   "devDependencies": {
-    "webpack": "^4.41.6"
+    "webpack": "^4.41.6",
+    "webpack-cli": "^3.3.11"
   }
 }
