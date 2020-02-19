@@ -1,0 +1,23 @@
+{
+  "name": "webpack_training",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+      "build": "webpack -p",
+      "watch": "webpack --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JuliaAvsyuk/Webpack.git"
+  },
+  "author": "JAV",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JuliaAvsyuk/Webpack/issues"
+  },
+  "homepage": "https://github.com/JuliaAvsyuk/Webpack#readme",
+  "devDependencies": {
+    "webpack": "^4.41.6"
+  }
+}
