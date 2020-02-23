@@ -1,5 +1,9 @@
+import this_day from 'moment';
+
+
 function greet() {
-    console.log("Have a great day!");
+    let day = this_day().format('dddd');
+    console.log(`Have a great ${day}!`);
 }
 
 export default greet;
