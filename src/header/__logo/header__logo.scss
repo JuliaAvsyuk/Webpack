@@ -1,4 +1,11 @@
-$logo__img: url(https://avatars.mds.yandex.net/get-pdb/1732919/4a5a6811-89a5-49dc-8214-8fe0db202c62/s1200);
+.logo_size_m {
+  border: dashed;
+  border-color: yellow;
+}
+.logo {
+  display: inline-block;
+}
 .logo__img {
-  img: $logo__img;
+  width: 350px;
+  height: 250px;
 }
