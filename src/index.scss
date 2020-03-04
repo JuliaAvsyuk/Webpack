@@ -1,0 +1,12 @@
+@import './header/__logo/header__logo';
+
+$body-color: red;
+
+body {
+  background-color: $body-color;
+}
+
+.logo__img {
+  text-decoration-color: yellow;
+}
+
