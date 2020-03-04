@@ -6,14 +6,16 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<div class="header">
+<div class="header container">
     <div class="logo logo_size_m">
         <img class="logo__img" src="../src/header/__logo/logo.jpg" alt="logo" >
     </div>
 
     <form class="logIn">
-        <input type="text" class="logIn logIn__login">
-        <input type="text" class="logIn login__password">
+        <input type="text" class="logIn__login" maxlength="10" size="12" placeholder="login or email" >
+        <label>
+            <input type="password" class="logIn__password" maxlength="8" size="10">
+        </label>
         <button class="button button_size_s">
             <span class="button__icon"></span>
             <span class="button__text">Log In</span>
