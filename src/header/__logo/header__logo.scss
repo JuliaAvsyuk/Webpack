@@ -1,11 +1,12 @@
 .logo_size_m {
-  border: dashed;
-  border-color: yellow;
+
 }
 .logo {
   display: inline-block;
 }
 .logo__img {
   width: 350px;
-  height: 250px;
+  height: 300px;
+  border: solid;
+  border-color: black;
 }
