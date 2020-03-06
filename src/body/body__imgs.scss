@@ -1,6 +1,6 @@
 .main_pics__pics {
-  width: 350px;
-  height: 300px;
+  width: 450px;
+  height: 400px;
   border: solid;
   border-color: black;
 }
@@ -9,3 +9,10 @@
   flex-wrap: wrap;
   justify-content: space-around;
 }
+.body {
+  display: inline-block;
+  width: 1550px;
+  height: 850px;
+  border: solid;
+  border-color: black;
+ }
