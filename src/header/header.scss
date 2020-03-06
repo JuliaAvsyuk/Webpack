@@ -1,7 +1,9 @@
-.container {
+.header {
+  border: solid;
+  border-color: black;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  justify-content: space-around;
 }
 
 .button {

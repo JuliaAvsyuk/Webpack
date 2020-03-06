@@ -1,18 +1,20 @@
 .main_pics__pics {
-  width: 450px;
-  height: 400px;
+  width: 350px;
+  height: 300px;
   border: solid;
   border-color: black;
 }
 .main_pics {
   display: flex;
-  flex-wrap: wrap;
+  flex-flow: row wrap;
   justify-content: space-around;
 }
 .body {
-  display: inline-block;
-  width: 1550px;
-  height: 850px;
   border: solid;
   border-color: black;
  }
+
+
+/*.add_pics {
+  display: inline-block;
+} */
