@@ -3,19 +3,18 @@
   padding: 10px;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: flex-end;
 }
 
 .button {
-  font-family: Arial, sans-serif;
+  font-family: Arial, sans-serif, white;
   border: 1px solid black;
-  background: yellow;
+  background: blue;
 }
 
 .nav {
   background-color: deepskyblue;
   padding: 15px;
-  list-style-type: none;
   text-align: center;
 }
 

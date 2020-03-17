@@ -11,14 +11,21 @@
   flex-flow: row wrap;
   justify-content: space-around;
 }
-.body {
+.basic {
+  background-color: #05e0fc;
   padding: 20px;
-  border: solid;
-  border-color: black;
  }
 
 .text_blocks {
   display: block;
+  padding: 5px;
+  margin: 10px;
+  border: solid;
+  border-color: black;
+}
+
+.text_blocks_inline {
+  display: inline-block;
   padding: 5px;
   margin: 10px;
   border: solid;

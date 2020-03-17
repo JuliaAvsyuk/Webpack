@@ -2,7 +2,8 @@
 
 }
 .logo {
-  display: block;
+  display: flex;
+  justify-content: flex-start;
 }
 .logo__img {
   width: 250px;
