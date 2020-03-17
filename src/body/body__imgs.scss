@@ -1,4 +1,6 @@
 .main_pics__pics {
+  padding: 5px;
+  margin: 10px;
   width: 350px;
   height: 300px;
   border: solid;
@@ -10,11 +12,13 @@
   justify-content: space-around;
 }
 .body {
+  padding: 20px;
   border: solid;
   border-color: black;
  }
 
-
-/*.add_pics {
-  display: inline-block;
-} */
+.text_blocks {
+  display: block;
+  border: solid;
+  border-color: black;
+}
