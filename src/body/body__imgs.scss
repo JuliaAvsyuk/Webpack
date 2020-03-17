@@ -24,10 +24,19 @@
   border-color: black;
 }
 
-.text_blocks_inline {
+.grid {
+  border-collapse: separate;
+  border-spacing: 5px;
   display: inline-block;
   padding: 5px;
   margin: 10px;
   border: solid;
   border-color: black;
+}
+.grid td {
+  border: solid;
+  border-color: black;
+  width: 33.3%;
+  vertical-align: top;
+  padding: 0;
 }
