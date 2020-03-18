@@ -5,11 +5,26 @@
 @import '../src/header/__search/header__search';
 
 
+@media screen, print {
+  body {
+    line-height: 1.5;
+  }
+  h1 {
+    line-height: 60%;
+  }
+}
+
 $body-color: darkblue;
 
 body {
   background-color: $body-color;
 }
+/*@media (hover: hover) {
+}
+
+@media screen and (min-width: 30em) and (orientation: landscape) {
+
+}*/
 
 
 
