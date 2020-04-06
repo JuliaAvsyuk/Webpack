@@ -7,15 +7,11 @@
 </head>
 <body>
     <header>
+        <div class="logo logo_size_m">
+            <img class="logo__img" src="../src/header/__logo/Mira_the_star-by_Nasa_alt_crop.jpg" alt="logo" >
+        </div>
+        <h1>Our company</h1>
         <section class="nav">
-            <div class="logo logo_size_m">
-                <img class="logo__img" src="../src/header/__logo/logo.jpg" alt="logo" >
-            </div>
-            <form class="search">
-                <input type="text" class="search search__input">
-                <button class="button button__search-button">Search</button>
-            </form>
-            <h1>Our company</h1>
             <nav>
                 <ul class="nav">
                     <li><a href="#home">Home</a></li>
@@ -26,15 +22,20 @@
                 </ul>
             </nav>
         </section>
-        <section class="header">
-            <form class="logIn">
-                <input type="text" class="logIn__login" maxlength="10" size="12" placeholder="login or email" >
-                <input type="password" class="logIn__password" maxlength="8" size="10" placeholder="password">
-                <button class="button button_size_s">
-                    <span class="button__text">Log In</span>
-                </button>
-            </form>
-        </section>
+        <form class="logIn">
+            <input type="text" class="logIn__login" maxlength="10" size="12" placeholder="login or email" >
+            <input type="password" class="logIn__password" maxlength="8" size="10" placeholder="password">
+            <button class="button">
+                <span class="button__text">Log In</span>
+            </button>
+        </form>
+        <form class="search">
+            <label>
+                <input type="text" class="search search__input">
+            </label>
+            <button class="button button__search-button">Search</button>
+        </form>
+
     </header>
     <main>
         <section class="basic">
@@ -91,7 +92,29 @@
                 <div class="__show_display">Аделаида Ивановна, тотчас же после увоза, мигом разглядела, что мужа своего она только презирает и больше ничего.<span class="block">block</span><span class="block">block</span>Таким образом, следствия брака обозначились с чрезвычайною быстротой. Несмотря на то что семейство даже довольно скоро примирилось с событием и выделило беглянке приданое, между супругами началась самая беспорядочная жизнь и вечные сцены.             </div>
             </section>
         </section>
+        <section>
+                <ul class="comment-block">
+                    <li class="comment">
+                        <h3 class="hi">Hello World!</h3>
+                    </li>
+                    <li class="comment">
+                        <h3 class="hi">Hello World!</h3>
+                    </li>
+                    <li class="comment">
+                        <h3 class="hi">Hello World!</h3>
+                    </li>
+                    <li class="comment">
+                        <h3 class="hi">Hello World!</h3>
+                    </li>
+                    <li class="comment">
+                        <h3 class="hi">Hello World!</h3>
+                    </li>
+                </ul>
+        </section>
     </main>
+    <footer>
+
+    </footer>
 <script src="bundle.js"></script>
 </body>
 </html>
