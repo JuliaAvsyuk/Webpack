@@ -1,6 +1,9 @@
 .logIn__login {
-  border: 1px solid blue;
+  border: $forms-border;
 }
 .logIn__password {
-  border: 1px solid blue;
+  border: $forms-border;
+}
+.logIn {
+  margin: 0 20px;
 }
