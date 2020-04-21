@@ -1,17 +1,22 @@
 .comment-block {
   display: flex;
   .comment {
-    margin: 0 80px;
+    margin: 0 auto;
     background: url("https://avatars.mds.yandex.net/get-pdb/2126974/70bab550-1572-4046-aa34-6f1f98f9005d/s1200");
     background-size: 100% 100%;
     background-position: center;
-    width: 20%;
     color: #ffffff;
   }
 }
-.hi a{
-  color: #85144b;
+.comment_text a{
+  color: white;
   &:hover {
     color: #b10dc9;
   }
+}
+
+.helper {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
 }
