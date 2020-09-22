@@ -14,9 +14,22 @@
     color: #b10dc9;
   }
 }
+.logo {
+  background-color: blue;
+  padding: 5px;
+  margin: 10px;
+  border: solid;
+  border-color: black;
+}
 
 .helper {
   position: fixed;
   bottom: 20px;
   right: 20px;
+}
+.button_code {
+  border-radius: 12px;
+  color: black;
+  padding: 16px 12px;
+  font-size: 16px;
 }
