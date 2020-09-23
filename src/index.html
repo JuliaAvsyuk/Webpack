@@ -8,6 +8,11 @@
 <body>
     <header>
         <div class="logo">
+            <blockquote>
+                <p><i>"Счастье не в том, чтобы делать всегда, что хочешь, а в том, чтобы всегда хотеть того, что делаешь"</i></p>
+                <p>Лев Толстой</p>
+                <hr>
+            </blockquote>
             <form class="logIn">
                 <input type="text" class="logIn__login" maxlength="20" size="12" placeholder="login or email" >
                 <input type="password" class="logIn__password" maxlength="15" size="10" placeholder="password">
@@ -59,8 +64,35 @@
     </header>
     <main>
         <section class="basic">
-            <h1>Опыт работы:</h1>
-            <table class="grid">
+            <div class="educ">
+                <h1 class="title">Образование:</h1>
+                <table class="grid">
+                    <tr>
+                        <td>
+                            <div class="text_blocks_inline">
+                                <div><b>Освейская государственная общеобразовательная средняя школа</b></div>
+                                <img class="education" src="../src/header/__educ/Освейская%20школа.jpg">
+                            </div>
+                        </td>
+                        <td>
+                            <div class="text_blocks_inline">
+                                <div><b>Белорусская государственная академия </b></div>
+                                <div><b>авиации</b></div>
+                                <img class="education" src="../src/header/__educ/БГАА.jpg">
+                            </div>
+                        </td>
+                        <td>
+                            <div class="text_blocks_inline">
+                                <div><b>Белорусский государственный экономический университет</b></div>
+                                <img class="education" src="../src/header/__educ/бгэу.jpg">
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div>
+                <h1 class="title">Опыт работы:</h1>
+                <table class="grid">
                 <tr>
                     <td>
                         <div class="text_blocks_inline">
@@ -107,6 +139,7 @@
                     </td>
                 </tr>
             </table>
+            </div>
             <section class="blocks">
                 <div class="main_title">
                     <h1 class="title">О себе:</h1>
