@@ -7,7 +7,7 @@ $forms-border: 2px solid blue;
 }
 
 .button {
-  font-family: Century Gothic, sans-serif;
+  font-family: "Century Gothic", sans-serif;
   border: $forms-border;
   background: white;
 }
@@ -27,8 +27,4 @@ $forms-border: 2px solid blue;
 h1 {
   font-size: 54px;
   text-align: center;
-}
-.logIn_Search {
-  display: flex;
-  justify-content: center;
 }
